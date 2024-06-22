@@ -1,0 +1,9 @@
+labelname: i27-product
+deployname: i27-product-dev
+namespace: i27-dev-ns
+replicas:
+  default: 1
+image:
+  name: i27anilb3/product
+  tag: ${GIT_COMMIT}
+targetPort: 8132
