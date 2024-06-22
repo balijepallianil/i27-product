@@ -2,7 +2,7 @@ spring:
   application:
     name: learner-product-api
   profiles:
-    active:
+    active: dev
 ---
 spring:
   config:
